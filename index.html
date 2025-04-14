@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="Français">
+    <head>
+        <title>My portfolio</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo">Zara Khan</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#experiences">Expériences</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">Zara Khan</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">À propos</a></li>
+                    <li><a href="#competences" onclick="toggleMenu()">Compétences</a></li>
+                    <li><a href="#experiences" onclick="toggleMenu()">Expériences</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </div>
+            </div>
+        </nav>
+        <section id="profil">
+            <div class="section__pic-container">
+                <img src="./assets/Profil-pic-cv.jpg" alt="Zara Khan photo de profil">
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">Bonjour, je suis</p>
+                <h1 class="title">Zara Khan</h1>
+                <p class="section__text__p2">Etudiante en bachelier <br> E-business</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('./assets/Cv.pdf')">
+                        Télécharger mon CV !
+                    </button>
+                    <button class="btn btn-color-1" onclick="location.href= './#contact'">
+                        Contactez-moi !
+                    </button>
+                </div>
+                <div id="socials-container">
+                    <img src="./assets/linkedin.png" alt="Mon profil Linkedin" class="icon" onclick="location.href='https://www.linkedin.com/in/zara-khan-4761a3252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'">
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <p class="section__text__p1">Apprenez à mieux</p>
+            <h1 class="title">Me connaître</h1>
+            <div class="section-container">
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./assets/experience.png" alt="Experience icon" class="icon"> 
+                            <h3>Compétences</h3>
+                            <p><b>Mes compétences linguistiques</b></p>
+                            <p>Français - C2 <br> Anglais - B2 <br> Allemand - A2 </p>
+                            <p><b>Mes compétences digitales</b></p>
+                            <img src="./assets/HTML-JS-CSS-LOGO.jpg" alt="html, CSS, JS" class="icon">
+                            <img src="./assets/Canva-logo.jpg" alt="Canva" class="icon">
+                            <img src="./assets/inta-logo.jpg" alt="Insta" class="icon">
+                            <img src="./assets/Microsoft-Office-logo.jpg" alt="Microsoft Office" class="icon">
+                            <img src="./assets/tiktok-icon.jpg" alt="tiktok" class="icon">
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/education.png" alt="education icon" class="icon"> 
+                            <h3>Éducation</h3>
+                            <p><b>Bachelier en E-business</b><br>Haute école de la province de liège (HEPL)<br>(2022 - présent)</p>
+                            <p><b>Enseignement secondaire général - CESS</b><br> Athénée Royal de Bastogne - Houffalize (2022)</p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>Actuellement étudiante en bachelier d’e-business, je suis à la recherche d’une première expérience professionnelle pour mettre en pratique mes connaissances en marketing digital, gestion de projet et communication. Curieuse, ambitieuse et toujours prête à apprendre, je suis motivée à m’investir à 100 % dans un environnement où je pourrai évoluer, relever des défis et apporter ma créativité.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="arrow">
+            <img src="./assets/arrow.png" alt="arrow icon" class="icon" onclick="location.href='./#competences'">
+            </div>
+        </section>
+        <section id="competences">
+            <p class="section__text__p1">Parcourez mes</p>
+            <h1 class="title">Compétences professionnelles</h1>
+            <div class="competences-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="competences-sub-title">Compétences techniques</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>Design graphique</h3>
+                                    <p>Intermédiaire</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>Capcut</h3>
+                                    <p>Avancé</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>Tiktok</h3>
+                                    <p>Avancé</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>Canva</h3>
+                                    <p>Intermédiaire</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>Photoshop</h3>
+                                    <p>Débutant</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>Wordpress</h3>
+                                    <p>Débutant</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="competences-sub-title">Compétences informatiques</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>HTML & CSS</h3>
+                                    <p>Intermédiaire</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>Javascript</h3>
+                                    <p>Débutant</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>Stratégie de contenu</h3>
+                                    <p>Débutant</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>Outils analytiques</h3>
+                                    <p>Intermédiaire</p>
+                                </div>
+                            </article>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="arrow">
+                <img src="./assets/arrow.png" alt="arrow icon" class="icon" onclick="location.href='./#experiences'">
+            </div>
+        </section>
+        <section id="experiences">
+            <p class="section__text__p1">Découvrez mes</p>
+            <h1 class="title">Expériences</h1>
+            <div class="competences-details-container">
+                <div class="experiences-containers">
+                    <div class="experiences-details-container color-container">
+                    <div class="article-container">
+                        <h2 class="competences-sub-title experiences-title">Mes projets</h2>
+                        <p><b>Projet YEP - HEPL</b><br>Étude de marché, création d’une identité visuelle (logo, charte graphique), stratégie de communication et présentation finale structurée.</p>
+                        <p><b>Analyse digital et physique d’une entreprise - HEPL</b><br>Analyse du point de vente et de la présence digitale : site web, réseaux sociaux, image de marque et expérience client.</p>
+                    </div>
+                    </div>
+                    <div class="experiences-details-container color-container">
+                    <div class="article-container">
+                        <h2 class="competences-sub-title experiences-title">Mes jobs étudients</h2>
+                        <ul class="jobs-list">
+                            <li><b>Action – Bastogne</b><br>Janvier 2021 – 2025</li>
+                            <li><b>Carrefour market – Bastogne</b><br>Janvier 2022 - Août 2022</li>
+                            <li><b>Hôtel Vayamundo – Houffalize</b><br>Novembre 2021 – janvier 2022</li>
+                            <li><b>Boulangerie 100% Baltus – Bastogne</b><br>Vacances d'été 2021</li>
+                        </ul>  
+                    </div>
+                    </div>
+                    <div class="experiences-details-container color-container">
+                        <div class="article-container">
+                            <h2 class="competences-sub-title experiences-title">Mes projets liés à l'e-business</h2>
+                            <p><b>Remorque Californie</b><br>Récemment, je me suis engagée à accompagner une entreprise locale, dirigée par un ami, dans le développement de sa présence en ligne. Mon rôle consiste à l’aider à se positionner efficacement sur les réseaux sociaux en créant du contenu pertinent, visuel et engageant. Je participe également à l’élaboration de sa stratégie de communication digitale afin d’améliorer sa visibilité et d’attirer de nouveaux clients. Cette expérience me permet de mettre en pratique mes compétences en marketing digital tout en contribuant concrètement à la croissance d’un projet local.</p>
+                            <div class="btn-container">
+                                <button class="btn btn-color-2" onclick="location.href='https://remorque-californie.be'">
+                                    Visitez le site !
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="arrow">
+                <img src="./assets/arrow.png" alt="arrow icon" class="icon" onclick="location.href='./#contact'">
+            </div>
+        </section>
+        <section id="contact">
+            <p class="section__text__p1">Get In Touch</p>
+            <h2 class="title">Contactez-moi</h2>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="./assets/email.png" alt="Email icon" class="icon email-icon">
+                    <p><a href="mailto:zarakh501@gmail.com">zarakh501@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
+                    <p><a href="https://www.linkedin.com/in/zara-khan-4761a3252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">LinkedIn</a></p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#competences">Compétences</a></li>
+                        <li><a href="#experiences">Expériences</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>Copyright &#169; 2025 Zara Khan. All Right Reserved.</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
